@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles.css"],
+  "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n* {\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: 'Be Vietnam Pro', sans-serif;\n}\n:root {\n  --primary-color: #605DC8;\n  --secondary-color: #8B89E6;\n  --accent-color: #e8e7fa;\n  --shadow-color: #E8E8E8;\n}\n\nbutton.primary {\n  padding: 10px;\n  border: solid 1px var(--primary-color);\n  background: var(--primary-color);\n  color: white;\n  border-radius: 8px;\n}\n"],
+  "mappings": "AACA,EADA,OAEU,EAFV,QAGW,CACX,CAEA,KACE,YAAa,cAAgB,CAAE,UACjC,CACA,MACE,iBAAiB,QACjB,mBAAmB,QACnB,gBAAgB,QAChB,gBAAgB,OAClB,CAEA,MAAM,CAAC,QAhBP,QAiBW,KACT,OAAQ,MAAM,IAAI,IAAI,iBACtB,WAAY,IAAI,iBAChB,MAAO,KApBT,cAqBiB,GACjB",
+  "names": []
+}
