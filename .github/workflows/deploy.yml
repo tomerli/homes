@@ -44,18 +44,18 @@ jobs:
           node_modules/slnodejs/lib/cli.js config --tokenfile ./sltoken.txt --appname "Testim-HomesApp" --build "$BUILD_NUMBER.0" --branch "Main"
 
       - name: Scan and instrument the build
-        run: node_modules/slnodejs/lib/cli.js scan --tokenfile ./sltoken.txt --buildsessionidfile ./buildSessionId --instrumentForBrowsers --workspacepath ./build --outputpath ./sl_build --scm none
+        run: node_modules/slnodejs/lib/cli.js scan --tokenfile ./sltoken.txt --buildsessionidfile ./buildSessionId --instrumentForBrowsers --workspacepath ./dist --outputpath ./sl_dist --scm none
 
       - name: Switch between the builds
         run: |
-          mv ./build ./build_original
-          mv ./sl_build ./build
+          mv ./dist ./dist_original
+          mv ./sl_dist ./dist
 
       - name: Uploading production-ready build files
         uses: actions/upload-artifact@v4
         with:
           name: production-files
-          path: ./build
+          path: ./dist
 
       - name: List files
         run: |
@@ -78,7 +78,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: production-files
-          path: ./build
+          path: ./dist
 
       - name: List files
         run: |
@@ -89,7 +89,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./dist
           force_orphan: true # Creates a clean, empty branch before pushing
 
       #- name: Install Dependencies
