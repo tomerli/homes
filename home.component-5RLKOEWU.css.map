@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/home/home.component.css"],
-  "sourcesContent": [".results {\n  display: grid;\n  column-gap: 14px;\n  row-gap: 14px;\n  grid-template-columns: repeat(auto-fill, minmax(400px, 400px));\n  margin-top: 50px;\n  justify-content: space-around;\n}\ninput[type=\"text\"] {\n  border: solid 1px var(--primary-color);\n  padding: 10px;\n  border-radius: 8px;\n  margin-right: 4px;\n  display: inline-block;\n  width: 30%;\n}\nbutton {\n  padding: 10px;\n  border: solid 1px var(--primary-color);\n  background: var(--primary-color);\n  color: white;\n  border-radius: 8px;\n}\n@media (min-width: 500px) and (max-width: 768px) {\n  .results {\n      grid-template-columns: repeat(2, 1fr);\n  }\n  input[type=\"text\"] {\n      width: 70%;\n  }   \n}\n@media (max-width: 499px) {\n  .results {\n      grid-template-columns: 1fr;\n  }    \n}\n"],
-  "mappings": "AAAA,CAAC,QACC,QAAS,KACT,WAAY,KACZ,QAAS,KACT,sBAAuB,OAAO,SAAS,CAAE,OAAO,KAAK,CAAE,QACvD,WAAY,KACZ,gBAAiB,YACnB,CACA,KAAK,CAAC,WACJ,OAAQ,MAAM,IAAI,IAAI,iBATxB,QAUW,KAVX,cAWiB,IACf,aAAc,IACd,QAAS,aACT,MAAO,GACT,CACA,OAhBA,QAiBW,KACT,OAAQ,MAAM,IAAI,IAAI,iBACtB,WAAY,IAAI,iBAChB,MAAO,KApBT,cAqBiB,GACjB,CACA,OAAO,CAAC,SAAS,EAAE,OAAO,IAAI,CAAC,SAAS,EAAE,OACxC,CAxBD,QAyBK,sBAAuB,OAAO,CAAC,CAAE,IACrC,CACA,KAAK,CAAC,WACF,MAAO,GACX,CACF,CACA,OAAO,CAAC,SAAS,EAAE,OACjB,CAhCD,QAiCK,sBAAuB,GAC3B,CACF",
-  "names": []
-}
