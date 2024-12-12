@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/housing-location/housing-location.component.css"],
-  "sourcesContent": [".listing {\n  background: var(--accent-color);\n  border-radius: 30px;\n  padding-bottom: 30px;\n}\n.listing-heading {\n  color: var(--primary-color);\n  padding: 10px 20px 0 20px;\n}\n.listing-photo {\n  height: 250px;\n  width: 100%;\n  object-fit: cover;\n  border-radius: 30px 30px 0 0;\n}\n.listing-location {\n  padding: 10px 20px 20px 20px;\n}\n.listing-location::before {\n  content: url(\"/assets/location-pin.svg\") / \"\";\n}\nsection.listing a {\n  padding-left: 20px;\n  text-decoration: none;\n  color: var(--primary-color);\n}\nsection.listing a::after {\n  content: \"\\203A\";\n  margin-left: 5px;\n}\n"],
-  "mappings": "AAAA,CAAC,QACC,WAAY,IAAI,gBADlB,cAEiB,KACf,eAAgB,IAClB,CACA,CAAC,gBACC,MAAO,IAAI,iBANb,QAOW,KAAK,KAAK,CACrB,CACA,CAAC,cACC,OAAQ,MACR,MAAO,KACP,WAAY,MAZd,cAaiB,KAAK,KAAK,EAAE,CAC7B,CACA,CAAC,iBAfD,QAgBW,KAAK,KAAK,IACrB,CACA,CAHC,gBAGgB,QACf,QAAS,8BAAgC,EAAE,EAC7C,CACA,OAAO,CArBN,QAqBe,EACd,aAAc,KACd,gBAAiB,KACjB,MAAO,IAAI,gBACb,CACA,OAAO,CA1BN,QA0Be,CAAC,OACf,QAAS,QACT,YAAa,GACf",
-  "names": []
-}
