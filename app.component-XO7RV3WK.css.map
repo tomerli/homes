@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/app.component.css"],
-  "sourcesContent": [":host {\n  --content-padding: 10px;\n}\nheader {\n  display: block;\n  height: 60px;\n  padding: var(--content-padding);\n  box-shadow: 0px 5px 25px var(--shadow-color);\n}\n.content {\n  padding: var(--content-padding);\n}\n"],
-  "mappings": "AAAA,MACE,mBAAmB,IACrB,CACA,OACE,QAAS,MACT,OAAQ,KACR,QAAS,IAAI,mBACb,WAAY,EAAI,IAAI,KAAK,IAAI,eAC/B,CACA,CAAC,QACC,QAAS,IAAI,kBACf",
-  "names": []
-}
